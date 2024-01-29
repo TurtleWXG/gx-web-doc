@@ -3,8 +3,8 @@
 layout: home
 
 hero:
-  name: "My Awesome Project"
-  text: "A VitePress Site"
+  name: "冠宣前端文档"
+  text: "gx web doc"
   tagline: My great project tagline
   actions:
     - theme: brand
