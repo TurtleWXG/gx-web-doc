@@ -17,7 +17,4 @@ yarn-error.log*
 *.sln
 *.sw*
 
-src/auto-components.d.ts
-src/auto-imports.d.ts
-
-build-analysis.html
+*/.vitepress/cache
