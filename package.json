@@ -12,5 +12,8 @@
   "license": "ISC",
   "devDependencies": {
     "vitepress": "1.0.0-rc.40"
+  },
+  "dependencies": {
+    "@gx-web/tool": "^1.0.5"
   }
 }

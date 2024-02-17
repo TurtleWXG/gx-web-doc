@@ -7,9 +7,9 @@ const baseUrl = '/gx-web-doc/'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "冠宣前端文档",
+  title: '冠宣前端文档',
   head: [['link', { rel: 'icon', href: `${baseUrl}/favicon.ico` }]],
-  description: "A VitePress Site",
+  description: 'A VitePress Site',
   base: baseUrl,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -28,7 +28,11 @@ export default defineConfig({
         {
           items: [
             { text: '基础说明', link: '/tool/' },
-            { text: 'hooks', link: '/tool/hooks' },
+            {
+              text: 'hooks',
+              link: '/tool/hooks',
+              items: [{ text: 'useStateRef', link: '/tool/useStateRef' }]
+            },
             { text: 'utils', link: '/tool/utils' }
           ]
         }
@@ -44,8 +48,6 @@ export default defineConfig({
       ]
     },
 
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/TurtleWXG/gx-web-doc' }
-    ]
+    socialLinks: [{ icon: 'github', link: 'https://github.com/TurtleWXG/gx-web-doc' }]
   }
 })
