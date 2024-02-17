@@ -7,6 +7,17 @@ const baseUrl = '/gx-web-doc/'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  vite: {
+    resolve: {
+      alias: [
+        {
+          find: '@gx-web/tool',
+          replacement: '@gx-web/tool/lib'
+        }
+      ]
+    }
+  },
+  lastUpdated: true,
   title: '冠宣前端文档',
   head: [['link', { rel: 'icon', href: `${baseUrl}/favicon.ico` }]],
   description: 'A VitePress Site',
