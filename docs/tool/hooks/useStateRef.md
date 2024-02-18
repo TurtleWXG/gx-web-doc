@@ -32,16 +32,9 @@ const [num, setNum, resetNum] = useStateRef(0)
 
 The state is: {{ num }}
 
-<button :class="$style.button" @click="setNum(++num)">setNum(++num)</button>
+<ElButton type="primary" @click="setNum(++num)">setNum(++num)</ElButton>
 
-<button :class="$style.button" @click="resetNum()">resetNum()</button>
-
-<style module>
-.button {
-  color: red;
-  font-weight: bold;
-}
-</style>
+<ElButton @click="resetNum()">resetNum()</ElButton>
 
 ## String
 
@@ -56,16 +49,9 @@ const [str, setStr, resetStr] = useStateRef('wjh')
 
 The state is: {{ str }}
 
-<button :class="$style.button" @click="setStr(randomString(10))">setStr(randomString(10))</button>
+<ElButton type="primary" @click="setStr(randomString(10))">setStr(randomString(10))</ElButton>
 
-<button :class="$style.button" @click="resetStr()">resetStr()</button>
-
-<style module>
-.button {
-  color: red;
-  font-weight: bold;
-}
-</style>
+<ElButton @click="resetStr()">resetStr()</ElButton>
 
 ## Object
 
@@ -83,18 +69,15 @@ const [obj, setObj, resetObj] = useStateRef(() => ({
 
 The state is: {{ obj }}
 
-<button :class="$style.button" @click="setObj({ name: randomString(10) })">setObj({ name: randomString(10) })</button>
+<ElButton type="primary" @click="setObj({ name: randomString(10) })">setObj({ name: randomString(10) })</ElButton>
 
-<button :class="$style.button" @click="setObj((s) => s.name = randomString(10))">setObj((s) => s.name = randomString(10))</button>
+<br>
 
-<button :class="$style.button" @click="resetObj()">resetObj()</button>
+<ElButton style="margin-top: 20px" type="primary" @click="setObj((s) => s.name = randomString(10))">setObj((s) => s.name = randomString(10))</ElButton>
 
-<style module>
-.button {
-  color: red;
-  font-weight: bold;
-}
-</style>
+<br>
+
+<ElButton style="margin-top: 20px" @click="resetObj()">resetObj()</ElButton>
 
 ## Array
 
@@ -109,15 +92,12 @@ const [arr, setArr, resetArr] = useStateRef(() => ([1]))
 
 The state is: {{ arr }}
 
-<button :class="$style.button" @click="setArr([2])">setArr([2])</button>
+<ElButton type="primary" @click="setArr([2])">setArr([2])</ElButton>
 
-<button :class="$style.button" @click="setArr((s) => s.push(123))">setArr((s) => s.push(123))</button>
+<br>
 
-<button :class="$style.button" @click="resetArr()">resetArr()</button>
+<ElButton style="margin-top: 20px" type="primary" @click="setArr((s) => s.push(123))">setArr((s) => s.push(123))</ElButton>
 
-<style module>
-.button {
-  color: red;
-  font-weight: bold;
-}
-</style>
+<br>
+
+<ElButton style="margin-top: 20px" @click="resetArr()">resetArr()</ElButton>

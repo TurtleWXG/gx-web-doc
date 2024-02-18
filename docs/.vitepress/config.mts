@@ -41,8 +41,7 @@ export default defineConfig({
             { text: '基础说明', link: '/tool/' },
             {
               text: 'hooks',
-              link: '/tool/hooks',
-              items: [{ text: 'useStateRef', link: '/tool/useStateRef' }]
+              items: [{ text: 'useStateRef', link: '/tool/hooks/useStateRef' }]
             },
             { text: 'utils', link: '/tool/utils' }
           ]
