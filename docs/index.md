@@ -15,11 +15,11 @@ hero:
   #     link: /api-examples
 
 # features:
-#   - title: Feature A
-#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-#   - title: Feature B
-#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-#   - title: Feature C
-#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+#   - title: PC
+#     details: vue3 + element-plus
+#   - title: H5
+#     details: vue3 + vant
+#   - title: WeChat
+#     details: Taro-vue3
 ---
 

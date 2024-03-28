@@ -1,3 +1,3 @@
 # PC
 
-> 建设中~
+> 模板项目[gx-cloud-pc-template](https://git.xbzhsq.cn/zhsq/dev/gx/gx-cloud-pc-template)
