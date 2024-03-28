@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@gx-web/tool':
-    specifier: ^1.0.5
-    version: 1.0.5(axios@1.6.7)(vue@3.4.15)
+    specifier: ^1.0.10
+    version: 1.0.10(axios@1.6.7)(vue@3.4.15)
   element-plus:
     specifier: ^2.5.5
     version: 2.5.5(vue@3.4.15)
@@ -456,8 +456,8 @@ packages:
     resolution: {integrity: sha512-9TANp6GPoMtYzQdt54kfAyMmz1+osLlXdg2ENroU7zzrtflTLrrC/lgrIfaSe+Wu0b89GKccT7vxXA0MoAIO+Q==}
     dev: false
 
-  /@gx-web/tool@1.0.5(axios@1.6.7)(vue@3.4.15):
-    resolution: {integrity: sha512-RiYwIdmip+r/iHY5mxMfcWNwbXQxILsPgxVVt6S6s7kxak3V6XM5oSBov0XxPj76TtBzQ2Rg7ao2hcL3oBHovg==}
+  /@gx-web/tool@1.0.10(axios@1.6.7)(vue@3.4.15):
+    resolution: {integrity: sha512-V7l+CeZw+188zWKpvqLtyHfBe6JaAaq9OX9/lwO9h6CrKVVceFNhoJj64ejsyKZxR8nC5duJrJ4icQ1+56aqRg==}
     peerDependencies:
       axios: '*'
       vue: '>=3.3.0'
@@ -465,6 +465,7 @@ packages:
       axios: 1.6.7
       crypto-js: 4.2.0
       jsencrypt: 3.3.2
+      mockjs: 1.1.0
       ts-md5: 1.3.1
       vue: 3.4.15
     dev: false
@@ -843,6 +844,11 @@ packages:
     dependencies:
       delayed-stream: 1.0.0
 
+  /commander@12.0.0:
+    resolution: {integrity: sha512-MwVNWlYjDTtOjX5PiD7o5pK0UrFU/OYgcJfjjK4RaHZETNtjJqrZa9Y9ds88+A+f+d5lv+561eZ+yCKoS3gbAA==}
+    engines: {node: '>=18'}
+    dev: false
+
   /crypto-js@4.2.0:
     resolution: {integrity: sha512-KALDyEYgpY+Rlob/iriUtjV6d5Eq+Y191A5g4UqLAi8CyGP9N1+FdVbkc1SxKc2r4YAYqG8JzO2KGL+AizD70Q==}
     dev: false
@@ -1007,6 +1013,13 @@ packages:
   /minisearch@6.3.0:
     resolution: {integrity: sha512-ihFnidEeU8iXzcVHy74dhkxh/dn8Dc08ERl0xwoMMGqp4+LvRSCgicb+zGqWthVokQKvCSxITlh3P08OzdTYCQ==}
     dev: true
+
+  /mockjs@1.1.0:
+    resolution: {integrity: sha512-eQsKcWzIaZzEZ07NuEyO4Nw65g0hdWAyurVol1IPl1gahRwY+svqzfgfey8U8dahLwG44d6/RwEzuK52rSa/JQ==}
+    hasBin: true
+    dependencies:
+      commander: 12.0.0
+    dev: false
 
   /nanoid@3.3.7:
     resolution: {integrity: sha512-eSRppjcPIatRIMC1U6UngP8XFcz8MQWGQdt1MTBQ7NaAmvXDfvNxbvWV3x2y6CdEUciCSsDHDQZbhYaB8QEo2g==}

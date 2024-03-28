@@ -8,6 +8,9 @@ const baseUrl = '/gx-web-doc/'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   vite: {
+    server: {
+      port: 8080
+    },
     resolve: {
       alias: [
         {
@@ -31,7 +34,7 @@ export default defineConfig({
       { text: 'H5', link: '/h5/' },
       { text: 'Taro(wechat)', link: '/taro/' },
       { text: '规范', link: '/standard/' },
-      { text: '例子', link: '/markdown-examples' }
+      // { text: '例子', link: '/markdown-examples' }
     ],
 
     sidebar: {
@@ -41,9 +44,22 @@ export default defineConfig({
             { text: '基础说明', link: '/tool/' },
             {
               text: 'hooks',
-              items: [{ text: 'useStateRef', link: '/tool/hooks/useStateRef' }]
+              items: [
+                { text: 'useStateRef', link: '/tool/hooks/useStateRef' },
+                { text: 'useCompRef', link: '/tool/hooks/useCompRef' },
+                { text: 'useList', link: '/tool/hooks/useList' },
+                { text: 'useToggle', link: '/tool/hooks/useToggle' },
+                { text: 'useTablePage', link: '/tool/hooks/useTablePage' },
+              ]
             },
-            { text: 'utils', link: '/tool/utils' }
+            { text: 'utils', items: [
+                { text: 'is', link: '/tool/utils/is' }, 
+                { text: 'assert', link: '/tool/utils/assert' }, 
+                { text: 'validate', link: '/tool/utils/validate' },
+                { text: 'filter', link: '/tool/utils/filter' },
+                { text: 'random', link: '/tool/utils/random' },
+              ]
+            }
           ]
         }
       ],
