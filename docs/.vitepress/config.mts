@@ -59,6 +59,7 @@ export default defineConfig({
                 { text: 'validate', link: '/tool/utils/validate' },
                 { text: 'filter', link: '/tool/utils/filter' },
                 { text: 'random', link: '/tool/utils/random' },
+                { text: 'other', link: '/tool/utils/other' },
               ]
             }
           ]
