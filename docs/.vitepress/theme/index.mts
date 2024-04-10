@@ -4,8 +4,9 @@ import "element-plus/dist/index.css";
 
 import Tag from '../../components/tag.vue'
 
+/** @type {import('vitepress').Theme} */
 export default {
-  ...DefaultTheme,
+  extends: DefaultTheme,
   enhanceApp({ app, router, siteData }) {
     app.use(ElementPlus)
 

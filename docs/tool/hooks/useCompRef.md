@@ -1,4 +1,4 @@
-# useCompRef <Tag text="1.0.10"></Tag>
+# useCompRef <Badge text="1.0.10" />
 
 - 类型
 

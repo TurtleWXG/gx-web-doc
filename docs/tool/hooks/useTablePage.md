@@ -1,4 +1,4 @@
-# useTablePage <Tag text="1.0.10"></Tag>
+# useTablePage <Badge text="1.0.10" />
 
 - 类型
 

@@ -1,4 +1,4 @@
-# useList <Tag text="1.0.10"></Tag>
+# useList <Badge text="1.0.10" />
 
 - 类型
 

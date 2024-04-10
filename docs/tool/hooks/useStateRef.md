@@ -1,4 +1,4 @@
-# useStateRef <Tag text="1.0.10"></Tag>
+# useStateRef <Badge text="1.0.10" />
 
 > 用于定义Ref的变量  
 > 根据传入默认值, 分别可以定义Number,String,Object,Array

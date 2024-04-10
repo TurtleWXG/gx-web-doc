@@ -11,10 +11,10 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "vitepress": "1.0.0-rc.40"
+    "vitepress": "1.1.0"
   },
   "dependencies": {
-    "@gx-web/tool": "^1.0.10",
-    "element-plus": "^2.5.5"
+    "@gx-web/tool": "latest",
+    "element-plus": "latest"
   }
 }

@@ -1,4 +1,4 @@
-# useToggle <Tag text="1.0.10"></Tag>
+# useToggle <Badge text="1.0.10" />
 
 - 类型
 
