@@ -1,6 +1,6 @@
-# 其他
+# 其他 <Tag text="1.0.12"></Tag>
 
-## debounce
+## debounce <Tag text="1.0.12"></Tag>
 
 - 类型
 
@@ -18,7 +18,7 @@
 export declare function debounce(func: AnyFn, wait?: number): (...args: any) => void;
 ```
 
-## throttle
+## throttle <Tag text="1.0.12"></Tag>
 
 - 类型
 
@@ -36,7 +36,7 @@ export declare function debounce(func: AnyFn, wait?: number): (...args: any) => 
 export declare function throttle(func: AnyFn, delay?: number): (...args: any) => void;
 ```
 
-## delay
+## delay <Tag text="1.0.12"></Tag>
 
 - 类型
 
