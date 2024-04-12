@@ -1,6 +1,6 @@
 # useCompRef <Badge text="1.0.10" />
 
-> 新增支持泛型组件 <Badge text="1.0.13" />
+> 新增支持泛型组件 <Badge text="1.0.14" />
 
 - 类型
 
