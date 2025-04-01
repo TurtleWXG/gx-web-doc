@@ -8,13 +8,13 @@
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs"
   },
-  "author": "",
+  "author": "wangjiahui <13226651554@163.com>",
   "license": "ISC",
   "devDependencies": {
     "vitepress": "1.1.0"
   },
   "dependencies": {
-    "@gx-web/tool": "latest",
+    "@gx-web/tool": "^1.1.0",
     "element-plus": "latest"
   }
 }
