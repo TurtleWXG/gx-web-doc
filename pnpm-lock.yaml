@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@gx-web/tool':
-        specifier: ^1.1.0
-        version: 1.1.0(axios@1.6.7)(vue@3.4.21)
+        specifier: ^1.1.1
+        version: 1.1.1(axios@1.6.7)(vue@3.4.21)
       element-plus:
         specifier: latest
         version: 2.6.3(vue@3.4.21)
@@ -279,8 +279,8 @@ packages:
   '@floating-ui/utils@0.2.1':
     resolution: {integrity: sha512-9TANp6GPoMtYzQdt54kfAyMmz1+osLlXdg2ENroU7zzrtflTLrrC/lgrIfaSe+Wu0b89GKccT7vxXA0MoAIO+Q==}
 
-  '@gx-web/tool@1.1.0':
-    resolution: {integrity: sha512-zTeVR9Wj0qSukd19D08L0rSvqmmwkwc/nu1joytHwtN9zbQfz4LUYjdCsmX/e08k++w9Ze5pd5rhV0UHd8+j6w==}
+  '@gx-web/tool@1.1.1':
+    resolution: {integrity: sha512-YFxgDcMpfFi8eo7wIYaXaY+RVQ/uDYMsfFATcnQj9YQiHMIaDOwhUYomJOJ4BjPrH+Z09EnxIaCOAZ7Dr9YL/A==}
     peerDependencies:
       axios: '*'
       vue: ^3.3.0
@@ -992,7 +992,7 @@ snapshots:
 
   '@floating-ui/utils@0.2.1': {}
 
-  '@gx-web/tool@1.1.0(axios@1.6.7)(vue@3.4.21)':
+  '@gx-web/tool@1.1.1(axios@1.6.7)(vue@3.4.21)':
     dependencies:
       axios: 1.6.7
       crypto-js: 4.2.0
