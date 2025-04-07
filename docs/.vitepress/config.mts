@@ -49,6 +49,8 @@ export default defineConfig({
                 { text: 'useStateRef', link: '/tool/hooks/useStateRef' },
                 { text: 'useCompRef', link: '/tool/hooks/useCompRef' },
                 { text: 'useList', link: '/tool/hooks/useList' },
+                { text: 'useLoadList', link: '/tool/hooks/useLoadList' },
+                { text: 'useLoadMap', link: '/tool/hooks/useLoadMap' },
                 { text: 'useToggle', link: '/tool/hooks/useToggle' },
                 { text: 'useTablePage', link: '/tool/hooks/useTablePage' },
               ]

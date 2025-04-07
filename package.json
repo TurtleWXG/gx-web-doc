@@ -14,7 +14,7 @@
     "vitepress": "1.1.0"
   },
   "dependencies": {
-    "@gx-web/tool": "^1.1.1",
+    "@gx-web/tool": "^1.1.2",
     "element-plus": "latest"
   }
 }
