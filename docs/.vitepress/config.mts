@@ -44,6 +44,13 @@ export default defineConfig({
           items: [
             { text: '基础说明', link: '/tool/' },
             {
+              text: 'service',
+              items: [
+                { text: 'http-service', link: '/tool/service/http-service' },
+                { text: 'single-request', link: '/tool/service/single-request' },
+              ]
+            },
+            {
               text: 'hooks',
               items: [
                 { text: 'useStateRef', link: '/tool/hooks/useStateRef' },
