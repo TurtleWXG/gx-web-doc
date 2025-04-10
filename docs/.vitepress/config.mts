@@ -122,6 +122,19 @@ export default defineConfig({
 
     search: {
       provider: 'local'
-    }
+    },
+
+    docFooter: {
+      prev: '上一篇',
+      next: '下一篇'
+    },
+
+    darkModeSwitchLabel: '外观',
+
+    lightModeSwitchTitle: '切换亮色模式',
+
+    darkModeSwitchTitle: '切换暗黑模式',
+
+    externalLinkIcon: true
   }
 })
