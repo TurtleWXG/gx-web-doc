@@ -1,0 +1,9 @@
+:root {
+  .vp-doc .el-table table {
+    margin: 0;
+  }
+
+  .vp-doc .el-table tr {
+    border: 0
+  }
+}

@@ -1,5 +1,39 @@
 # BaseModel <Badge text="1.1.0" />
 
+<script setup lang="ts">
+import { Default, FieldName, ClassName, BaseModel, useStateRef } from '@gx-web/tool'
+
+@ClassName('登录')
+class LoginFormVO extends BaseModel {
+  /**
+   * ### 账号
+   */
+  @Default('')
+  @FieldName('账号')
+  username!: string
+
+  /**
+   * ### 密码
+   */
+  @Default('')
+  @FieldName('密码')
+  password!: string
+
+  /**
+   * ### 验证码
+   */
+  @Default('')
+  @FieldName('验证码')
+  code?: string
+}
+
+const [form] = useStateRef(() => LoginFormVO.fromJson())
+
+const name = LoginFormVO.getClassName()
+
+const usernameCN = LoginFormVO.getFieldName('username')
+</script>
+
 ## 说明
 
 BaseModel 是一个用于处理数据模型和数据转换的基类，它提供了一些通用的方法和属性，用于简化数据处理逻辑
@@ -7,6 +41,57 @@ BaseModel 是一个用于处理数据模型和数据转换的基类，它提供�
 ## 装饰器
 
 通过继承`BaseModel`后，在继承类结合装饰器进行数据处理，可以获取到装饰器设置的属性，并使用这些属性进行数据处理
+
+## 基础示例
+
+```ts
+import { 
+  Default, 
+  FieldName, 
+  ClassName, 
+  BaseModel, 
+  useStateRef 
+} from '@gx-web/tool'
+
+@ClassName('登录')
+class LoginFormVO extends BaseModel {
+  /**
+   * ### 账号
+   */
+  @Default('')
+  @FieldName('账号')
+  username!: string
+
+  /**
+   * ### 密码
+   */
+  @Default('')
+  @FieldName('密码')
+  password!: string
+
+  /**
+   * ### 验证码
+   */
+  @Default('')
+  @FieldName('验证码')
+  code?: string
+}
+
+// 定义变量， 提供设置以及重置方法， form还能支持类型提示
+const [form, setForm, resetForm] = useStateRef(() => LoginFormVO.fromJson())
+
+// 获取类说明名，可以在标题名称引入，达到统一管理
+const name = LoginFormVO.getClassName()
+
+// 获取属性说明名，可以在表单项名称引入，达到统一管理
+const usernameCN = LoginFormVO.getFieldName('username')
+```
+
+form => {{ form }}
+
+usernameCN => {{ usernameCN }}
+
+name => {{ name }}
 
 ## API
 

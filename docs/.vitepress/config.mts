@@ -105,7 +105,7 @@ export default defineConfig({
         {
           items: [
             { text: '基础说明', link: '/component/element-plus/' },
-            { text: 'GXTable', link: '/component/element-plus/table' },
+            { text: 'GXTable', link: '/component/element-plus/table/' },
             { text: 'GXForm', link: '/component/element-plus/form' },
             { text: 'GXDescriptions', link: '/component/element-plus/descriptions' },
           ],

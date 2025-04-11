@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@gx-web/component':
+        specifier: ^1.1.1
+        version: 1.1.1(@gx-web/tool@1.1.2(axios@1.6.7)(vue@3.4.21))(element-plus@2.6.3(vue@3.4.21))(vue@3.4.21)
       '@gx-web/tool':
         specifier: ^1.1.2
         version: 1.1.2(axios@1.6.7)(vue@3.4.21)
@@ -278,6 +281,13 @@ packages:
 
   '@floating-ui/utils@0.2.1':
     resolution: {integrity: sha512-9TANp6GPoMtYzQdt54kfAyMmz1+osLlXdg2ENroU7zzrtflTLrrC/lgrIfaSe+Wu0b89GKccT7vxXA0MoAIO+Q==}
+
+  '@gx-web/component@1.1.1':
+    resolution: {integrity: sha512-xc7gB7+BMllcTdymFsOEr7GCvRKEN3jbynHT4rMyWDfxw0k5zMlxsEEgsSv81XQ0JEeOuytkAo8z4ZwLswG0Ew==}
+    peerDependencies:
+      '@gx-web/tool': 1.1.2
+      element-plus: ^2.2.0
+      vue: ^3.3.0
 
   '@gx-web/tool@1.1.2':
     resolution: {integrity: sha512-HpqLlYu4Fu2qLL1ae/n+pJjDB1aYTu0MGHD7VxFZPradq9br2hc1AnlCneFvRN8KUg7n/QCmkQZBaGB4XsCPNg==}
@@ -991,6 +1001,12 @@ snapshots:
       '@floating-ui/utils': 0.2.1
 
   '@floating-ui/utils@0.2.1': {}
+
+  '@gx-web/component@1.1.1(@gx-web/tool@1.1.2(axios@1.6.7)(vue@3.4.21))(element-plus@2.6.3(vue@3.4.21))(vue@3.4.21)':
+    dependencies:
+      '@gx-web/tool': 1.1.2(axios@1.6.7)(vue@3.4.21)
+      element-plus: 2.6.3(vue@3.4.21)
+      vue: 3.4.21
 
   '@gx-web/tool@1.1.2(axios@1.6.7)(vue@3.4.21)':
     dependencies:
